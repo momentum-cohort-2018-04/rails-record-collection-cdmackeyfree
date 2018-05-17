@@ -1,0 +1,17 @@
+<h1>Check Out this Rad Album, Yo</h1>
+<p>
+  <strong>Title:</strong>
+  <%= @album.title %>
+</p>
+ 
+<p>
+  <strong>Artist:</strong>
+  <%= @album.artist %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @album.year %>
+</p>
+<%= link_to 'Back', album_path %>
+<%= link_to 'Edit', edit_album_path(@album) %>
